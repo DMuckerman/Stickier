@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E329F6A1A6B8951009E6314 /* WAYTheDarkSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E329F691A6B8951009E6314 /* WAYTheDarkSide.m */; };
 		9E810FF51A6A070500C35696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E810FF41A6A070500C35696 /* AppDelegate.swift */; };
 		9E810FF71A6A070500C35696 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E810FF61A6A070500C35696 /* Images.xcassets */; };
 		9E810FFA1A6A070500C35696 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E810FF81A6A070500C35696 /* MainMenu.xib */; };
@@ -24,6 +25,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E329F681A6B8951009E6314 /* WAYTheDarkSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAYTheDarkSide.h; sourceTree = "<group>"; };
+		9E329F691A6B8951009E6314 /* WAYTheDarkSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSide.m; sourceTree = "<group>"; };
+		9E329F6B1A6B8992009E6314 /* Stickier-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stickier-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		9E810FEF1A6A070500C35696 /* Stickier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E810FF31A6A070500C35696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E810FF41A6A070500C35696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E329F671A6B8951009E6314 /* WAYTheDarkSide */ = {
+			isa = PBXGroup;
+			children = (
+				9E329F681A6B8951009E6314 /* WAYTheDarkSide.h */,
+				9E329F691A6B8951009E6314 /* WAYTheDarkSide.m */,
+			);
+			path = WAYTheDarkSide;
+			sourceTree = "<group>";
+		};
 		9E810FE61A6A070500C35696 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +86,7 @@
 		9E810FF11A6A070500C35696 /* Stickier */ = {
 			isa = PBXGroup;
 			children = (
+				9E329F671A6B8951009E6314 /* WAYTheDarkSide */,
 				9E810FF41A6A070500C35696 /* AppDelegate.swift */,
 				9E810FF61A6A070500C35696 /* Images.xcassets */,
 				9E810FF81A6A070500C35696 /* MainMenu.xib */,
@@ -84,6 +98,7 @@
 		9E810FF21A6A070500C35696 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E329F6B1A6B8992009E6314 /* Stickier-Bridging-Header.h */,
 				9E810FF31A6A070500C35696 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -205,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E329F6A1A6B8951009E6314 /* WAYTheDarkSide.m in Sources */,
 				9E810FF51A6A070500C35696 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +340,7 @@
 				INFOPLIST_FILE = Stickier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Stickier-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -335,6 +352,7 @@
 				INFOPLIST_FILE = Stickier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Stickier-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -393,6 +411,7 @@
 				9E81100B1A6A070500C35696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E81100C1A6A070500C35696 /* Build configuration list for PBXNativeTarget "StickierTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +420,7 @@
 				9E81100E1A6A070500C35696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
